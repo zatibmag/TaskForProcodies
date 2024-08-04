@@ -1,0 +1,14 @@
+.small-text {
+  font-size: 0.8em;
+  color: #333;
+}
+
+.middle-text {
+  font-size: 1em;
+  color: #000;
+}
+
+.green-text {
+  font-size: 1em;
+  color: green;
+}
