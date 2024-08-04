@@ -1,6 +1,6 @@
 import React from "react";
-import "./Image.css";
+import "../Css/Image.css";
 
-export function Image({ text, className }) {
-  return <h1 className={className}>{text}</h1>;
+export function Image({ src, className }) {
+  return <img src={src} className={className} />;
 }

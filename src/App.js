@@ -1,11 +1,8 @@
-import { Heading } from "./Components/Heading";
-
+import { CardsInfo } from "./Components/CardsInfo";
 function App() {
   return (
     <>
-      <Heading className="big-heading" text="Big Heading" />
-      <Heading className="small-heading" text="Small Heading" />
-      <Heading className="default-heading" text="Default Heading" />
+      <CardsInfo />
     </>
   );
 }

@@ -1,0 +1,21 @@
+.small-image {
+  max-width: 1500px;
+  max-height: 1500px;
+  object-fit: contain;
+  position: fixed;
+  bottom: 1%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.medium-image {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.big-image {
+  width: 600px;
+  height: 600px;
+  object-fit: cover;
+}
