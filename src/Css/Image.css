@@ -1,11 +1,10 @@
+.image-container {
+  text-align: center;
+}
+
 .small-image {
   max-width: 1500px;
   max-height: 1500px;
-  object-fit: contain;
-  position: fixed;
-  bottom: 1%;
-  left: 50%;
-  transform: translateX(-50%);
 }
 
 .medium-image {
