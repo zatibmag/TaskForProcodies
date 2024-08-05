@@ -1,0 +1,14 @@
+.post-container {
+  display: flex;
+  flex-direction: row;
+  padding: 50px 25px;
+}
+
+.post-item {
+  flex: 1;
+}
+
+.middle-text-container {
+  padding: 25% 0px;
+  padding-left: 2.5%;
+}

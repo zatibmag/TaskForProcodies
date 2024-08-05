@@ -12,14 +12,16 @@
   line-height: 1.5;
 }
 
-.middle-text {
-  font-size: 0.85em;
+.post-text {
+  font-size: 1.45em;
   font-weight: normal;
   color: #293632;
   line-height: 1.5;
 }
 
 .green-text {
-  font-size: 1em;
-  color: green;
+  text-align: center;
+  font-weight: normal;
+  font-size: 1.85em;
+  color: #006340;
 }
