@@ -7,8 +7,8 @@ export function CardsInfo() {
   return (
     <>
       <Text className="card-text" text="We accept the following credit cards" />
-      <div className="image-container">
-        <Image className="small-image" src={cards} alt="cards" />
+      <div className="image-center">
+        <Image className="card-image" src={cards} alt="cards" />
       </div>
     </>
   );
