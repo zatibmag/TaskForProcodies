@@ -1,0 +1,23 @@
+/* PaymentForm.css */
+
+.form-row {
+  display: flex;
+  gap: 10px; /* Adjust gap as needed */
+  margin-bottom: 10px; /* Adjust margin as needed */
+}
+
+.solo-form-input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #293632;
+  border-radius: 10px;
+  font-size: 16px;
+}
+
+.duo-form-input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #293632;
+  border-radius: 10px;
+  font-size: 16px;
+}
