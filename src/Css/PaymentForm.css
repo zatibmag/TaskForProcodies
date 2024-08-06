@@ -1,23 +1,13 @@
-/* PaymentForm.css */
+.form-border {
+  padding: 10px;
+  border: 1px solid #dbdbdb;
+  border-radius: 10px;
+  font-size: 16px;
+  width: 50%;
+}
 
 .form-row {
   display: flex;
-  gap: 10px; /* Adjust gap as needed */
-  margin-bottom: 10px; /* Adjust margin as needed */
-}
-
-.solo-form-input {
-  flex: 1;
-  padding: 10px;
-  border: 1px solid #293632;
-  border-radius: 10px;
-  font-size: 16px;
-}
-
-.duo-form-input {
-  flex: 1;
-  padding: 10px;
-  border: 1px solid #293632;
-  border-radius: 10px;
-  font-size: 16px;
+  gap: 10px;
+  margin-bottom: 10px;
 }
