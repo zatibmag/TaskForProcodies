@@ -15,3 +15,10 @@
 .form-image {
   width: 40%;
 }
+
+.value-image {
+  position: absolute;
+  top: -0.7%;
+  left: 28%;
+  width: 18.3%;
+}

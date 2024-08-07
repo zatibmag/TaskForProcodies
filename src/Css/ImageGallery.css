@@ -17,10 +17,22 @@
 
 .thumbnail {
   width: 25.5%;
-  margin: 3.7%;
+  margin: 30px;
   cursor: pointer;
 }
 
 .thumbnail:hover {
   transform: scale(1.1);
+}
+
+@media (min-width: 768px) {
+  .thumbnail {
+    width: 150px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .thumbnail {
+    width: 200px;
+  }
 }
