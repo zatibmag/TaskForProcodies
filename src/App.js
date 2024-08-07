@@ -1,14 +1,12 @@
 import { CardsInfo } from "./Components/CardsInfo";
 import { BottomPart } from "./Components/BottomPart";
 import { MiddlePart } from "./Components/MiddlePart";
-import { PaymentForm } from "./Components/PaymentForm";
-import { ImageGallery } from "./Components/ImageGallery";
+import { TopPart } from "./Components/TopPart";
 
 function App() {
   return (
     <>
-      <ImageGallery />
-      <PaymentForm />
+      <TopPart />
       <MiddlePart />
       <BottomPart />
       <CardsInfo />

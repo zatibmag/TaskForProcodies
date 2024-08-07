@@ -1,0 +1,4 @@
+.top-part-container {
+  display: flex;
+  flex-direction: row;
+}

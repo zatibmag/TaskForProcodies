@@ -31,14 +31,12 @@ export function ImageGallery() {
 
   return (
     <div className="image-gallery">
-      <div className="main-image-container">
-        <img
-          src={mainImg}
-          alt="Main"
-          className="main-image"
-          onClick={handleMainImageClick}
-        />
-      </div>
+      <img
+        src={mainImg}
+        alt="Main"
+        className="main-image"
+        onClick={handleMainImageClick}
+      />
       <div className="thumbnail-container">
         {thumbnails.map((thumbnail, index) => (
           <img
