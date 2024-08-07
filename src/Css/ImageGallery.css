@@ -3,6 +3,7 @@
   flex-direction: column;
   align-items: center;
   margin: 5% 0.8%;
+  width: 62.5%;
 }
 
 .main-image {
@@ -17,7 +18,7 @@
 
 .thumbnail {
   width: 25.5%;
-  margin: 30px;
+  margin: 27px;
   cursor: pointer;
 }
 

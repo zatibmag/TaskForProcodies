@@ -25,3 +25,10 @@
   font-size: 1.85em;
   color: #006340;
 }
+
+.top-text {
+  font-size: 2em;
+  font-weight: normal;
+  color: #293632;
+  line-height: 1.5;
+}

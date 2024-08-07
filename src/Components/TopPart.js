@@ -11,11 +11,11 @@ export function TopPart() {
       <ImageGallery />
       <div>
         <Heading
-          className="post-heading"
+          className="top-heading"
           text="Chance to win a StockX Mystery Box today!"
         />
         <Text
-          className="post-text"
+          className="top-text"
           text="Unleash the Excitement of Mystery Electronics"
         />
         <PaymentForm />
