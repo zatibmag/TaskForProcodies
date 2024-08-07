@@ -2,13 +2,11 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 1% 1%;
+  margin: 2% 1.7%;
 }
 
 .main-image {
-  width: 100%;
-  max-width: 720px;
-  height: auto;
+  width: 92.5%;
 }
 
 .thumbnail-container {
@@ -18,25 +16,11 @@
 }
 
 .thumbnail {
-  width: 100px;
-  height: auto;
-  margin: 5px;
+  width: 25.5%;
+  margin: 3.7%;
   cursor: pointer;
-  transition: transform 0.2s;
 }
 
 .thumbnail:hover {
   transform: scale(1.1);
-}
-
-@media (min-width: 768px) {
-  .thumbnail {
-    width: 150px;
-  }
-}
-
-@media (min-width: 1024px) {
-  .thumbnail {
-    width: 200px;
-  }
 }
