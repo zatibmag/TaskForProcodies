@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Image } from "./Image";
 import "../Css/ImageGallery.css";
 import main from "../Images/main.png";
 import thumbnail1 from "../Images/thumbnail1.png";
@@ -31,19 +32,19 @@ export function ImageGallery() {
 
   return (
     <div className="image-gallery">
-      <img
+      <Image
+        className="main-image"
         src={mainImg}
         alt="Main"
-        className="main-image"
         onClick={handleMainImageClick}
       />
       <div className="thumbnail-container">
         {thumbnails.map((thumbnail, index) => (
-          <img
+          <Image
             key={index}
+            className="thumbnail"
             src={thumbnail.src}
             alt={thumbnail.alt}
-            className="thumbnail"
             onClick={() => handleThumbnailClick(thumbnail.src)}
           />
         ))}
