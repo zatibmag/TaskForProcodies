@@ -1,7 +1,7 @@
 import React from "react";
-import { Text } from "./Text";
-import { Image } from "./Image";
-import cards from "../Images/cards.png";
+import { Text } from "../Text";
+import { Image } from "../Image";
+import cards from "../../Images/cards.png";
 
 export function CardsInfo() {
   return (

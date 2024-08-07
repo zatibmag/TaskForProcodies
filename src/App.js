@@ -1,7 +1,7 @@
-import { CardsInfo } from "./Components/CardsInfo";
-import { BottomPart } from "./Components/BottomPart";
-import { MiddlePart } from "./Components/MiddlePart";
-import { TopPart } from "./Components/TopPart";
+import { CardsInfo } from "./Components/PageLayout/CardsInfo";
+import { BottomPart } from "./Components/PageLayout/BottomPart";
+import { MiddlePart } from "./Components/PageLayout/MiddlePart";
+import { TopPart } from "./Components/PageLayout/TopPart";
 
 function App() {
   return (

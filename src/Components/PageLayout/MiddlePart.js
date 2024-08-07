@@ -1,8 +1,8 @@
 import React from "react";
-import { Post } from "./Post";
-import openBox1 from "../Images/openBox1.png";
-import openBox2 from "../Images/openBox2.png";
-import { HeadingForMiddlePart } from "./HeadingForMiddlePart";
+import { Post } from "../Post";
+import openBox1 from "../../Images/openBox1.png";
+import openBox2 from "../../Images/openBox2.png";
+import { HeadingForMiddlePart } from "../HeadingForMiddlePart";
 
 export function MiddlePart() {
   return (
