@@ -1,7 +1,7 @@
 import React from "react";
 import { Text } from "../Text";
 import { Heading } from "../Heading";
-import "../../Css/BottomPart.css";
+import "../../Css/PageLayout/BottomPart.css";
 
 export function BottomPart() {
   return (

@@ -3,7 +3,7 @@ import { ImageGallery } from "../ImageGallery";
 import { PaymentForm } from "../PaymentForm";
 import { Heading } from "../Heading";
 import { Text } from "../Text";
-import "../../Css/TopPart.css";
+import "../../Css/PageLayout/TopPart.css";
 
 export function TopPart() {
   return (
