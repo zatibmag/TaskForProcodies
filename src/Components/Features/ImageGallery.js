@@ -1,11 +1,11 @@
 import React, { useState } from "react";
-import { Image } from "./Image";
-import "../Css/ImageGallery.css";
-import main from "../Images/main.png";
-import thumbnail1 from "../Images/thumbnail1.png";
-import thumbnail2 from "../Images/thumbnail2.png";
-import thumbnail3 from "../Images/thumbnail3.png";
-import value from "../Images/value.png";
+import { Image } from "../Image";
+import "../../Css/Features/ImageGallery.css";
+import main from "../../Images/main.png";
+import thumbnail1 from "../../Images/thumbnail1.png";
+import thumbnail2 from "../../Images/thumbnail2.png";
+import thumbnail3 from "../../Images/thumbnail3.png";
+import value from "../../Images/value.png";
 
 export function ImageGallery() {
   const [mainImg, setMainImg] = useState(main);

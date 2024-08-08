@@ -1,10 +1,10 @@
 import React from "react";
-import { Heading } from "./Heading";
-import "../Css/PaymentForm.css";
-import { Button } from "./Button";
-import { Input } from "./Input";
-import { Image } from "./Image";
-import certificates from "../Images/certificates.png";
+import { Heading } from "../Heading";
+import "../../Css/Features/PaymentForm.css";
+import { Button } from "../Button";
+import { Input } from "../Input";
+import { Image } from "../Image";
+import certificates from "../../Images/certificates.png";
 
 export function PaymentForm() {
   return (

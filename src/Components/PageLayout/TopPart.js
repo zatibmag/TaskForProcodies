@@ -1,6 +1,6 @@
 import React from "react";
-import { ImageGallery } from "../ImageGallery";
-import { PaymentForm } from "../PaymentForm";
+import { ImageGallery } from "../Features/ImageGallery";
+import { PaymentForm } from "../Features/PaymentForm";
 import { Heading } from "../Heading";
 import { Text } from "../Text";
 import "../../Css/PageLayout/TopPart.css";
